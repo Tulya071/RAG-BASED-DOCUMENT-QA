@@ -1,0 +1,51 @@
+# Python virtual environment
+rag-env/
+venv/
+env/
+.venv/
+
+# Secret keys — never commit
+.env
+
+# FAISS vector index — large binary files
+backend/faiss_index/
+
+# Local embedding model — very large (~90MB)
+backend/local_model/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (for Angular frontend later)
+node_modules/
+dist/
+.angular/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploaded files (if you add file storage later)
+backend/uploads/
+
+# Logs
+*.log
+uvicorn.log
